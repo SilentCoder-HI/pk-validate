@@ -1,0 +1,16 @@
+# Keep only the built library, package metadata, README, and license in the npm tarball.
+playground/
+tests/
+examples/
+.github/
+dist-demo/
+coverage/
+node_modules/
+*.config.ts
+vite.config.ts
+vercel.json
+tsconfig.json
+package-lock.json
+CHANGELOG.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
