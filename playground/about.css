@@ -28,9 +28,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .dark .button-secondary { border-color: #405247; background: #19231d; color: #e2ece5; }
 .dark .button-secondary:hover { border-color: #6ba481; background: #202e25; }
 .button-primary:focus-visible, .button-secondary:focus-visible { outline: 3px solid #34d399; outline-offset: 3px; }
-.feature-card { min-height: 13.5rem; border: 1px solid #e1e7e1; border-radius: 1.25rem; padding: 1.35rem; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
+.feature-card { min-height: 13.5rem; padding: 1.35rem; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
 .feature-card:hover { transform: translateY(-3px); border-color: #bdd9c5; box-shadow: 0 18px 45px -35px rgba(13, 69, 43, .6); }
-.dark .feature-card { border-color: #35483d; background: #1c2922; }
+.dark .feature-card { border-color: #35483d; background: #35483d; }
 .dark .feature-card:hover { border-color: #496552; }
 .feature-icon { display: grid; width: 2.4rem; height: 2.4rem; place-items: center; border: 1px solid #d9eade; border-radius: .85rem; background: #edf7ef; color: #14613d; font: 600 .85rem var(--font-mono); }
 .dark .feature-icon { border-color: #3a5544; background: #26372e; color: #a7e8ba; }
